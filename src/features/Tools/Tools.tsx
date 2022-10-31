@@ -64,6 +64,7 @@ function Tools() {
         onChange={callbacks.onChange}
         onSubmit={callbacks.onSubmit}
         autofocus={true}
+        maxLength={35}
       />
       <Filter
         onClick={callbacks.removeCompletedTasks}

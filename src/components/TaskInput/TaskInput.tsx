@@ -33,6 +33,7 @@ function Input({ type = "text", theme = "", unique = "", initValue = "", name = 
                 placeholder={props.placeholder}
                 onChange={callbacks.onChange}
                 autoFocus={autofocus}
+                maxLength={props.maxLength}
             />
         </form>
     );
@@ -48,6 +49,7 @@ interface TaskInputProps {
     theme?: string,
     unique?: string,
     autofocus?: boolean,
+    maxLength?: number,
 }
 
 export default React.memo(Input);

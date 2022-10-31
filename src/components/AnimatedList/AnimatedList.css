@@ -1,0 +1,49 @@
+.list {}
+
+.listItem {
+    background-color: red;
+}
+
+.ani-enter {
+    opacity: 0;
+}
+
+.ani-enter-active {
+    animation: appear 0.5s;
+}
+
+.ani-exit {
+    opacity: 0;
+}
+
+.ani-exit-active {
+    animation: shrink 0.5s;
+}
+
+@keyframes appear {
+    0% {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+
+        opacity: 1;
+    }
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}

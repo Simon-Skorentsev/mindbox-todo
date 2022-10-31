@@ -1,0 +1,18 @@
+.wrapper {
+    transition: 150ms ease-in-out;
+
+    border-radius: 45%;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+
+    background-color: rgb(207, 207, 207);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+}

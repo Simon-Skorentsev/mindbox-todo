@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    max-width: 1024px;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    background: #FFF;
+    box-shadow: 0 0 15px 5px #0000003B;
+}
+
+.head {}
+
+.content {}

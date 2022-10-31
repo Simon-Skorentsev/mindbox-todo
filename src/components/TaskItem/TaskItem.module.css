@@ -1,0 +1,21 @@
+.wrapper {
+    margin-top: 20px;
+    padding: 10px;
+
+    transition: 250ms ease-in-out;
+    animation: ani 0.5s forwards;
+
+    border-bottom: 1px solid #CCC;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+
+    box-shadow: 0 1px 0 #1DDE27;
+}
+
+.selected {
+    text-decoration: line-through;
+
+    background-color: #CCC;
+}
